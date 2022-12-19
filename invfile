@@ -1,0 +1,13 @@
+[public_ips]
+23.20.246.149
+
+[private_ips]
+10.33.1.19
+
+[network]
+vpc-066e3d5398bf67255
+
+[public-subnets]
+subnet-0c82cede3159e3cd0
+subnet-0a87ce668edcbf98a
+subnet-0d4f533a917ab98fd
