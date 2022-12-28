@@ -25,7 +25,7 @@ resource "aws_instance" "web-2" {
   ami                         = data.aws_ami.my_ami.id
   availability_zone           = "us-east-1b"
   instance_type               = "t2.micro"
-  key_name                    = "RSAWSB40"
+  key_name                    = " RSAWSB40"
   subnet_id                   = aws_subnet.subnet2-public.id
   vpc_security_group_ids      = ["${aws_security_group.allow_all.id}"]
   associate_public_ip_address = true
