@@ -35,7 +35,7 @@
                 "sudo touch /home/ansibleadmin/.ssh/authorized_keys",
                 "sudo usermod -aG sudo ansibleadmin",
                 "echo 'ansibleadmin ALL=(ALL) NOPASSWD: ALL' | sudo tee -a /etc/sudoers",
-                "echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCOgQTRbodpw00WEIIQD2Mvvc3WgsbwTxW20cXPtTgnAzmf2TPb40XCeRqmvObt3yPAB9y+gDgiEZbtWdo292fTyXMEwZA4+22THQrIeim8VLZDAImmBSGEOjPCtOAvcd5TqmHXjUYkrHUIlbC6g1hz/fk+zQxVqLpr4EWtdlR9QNddF0PxmE7VTh941la+Dxsw/31XLbWHYl46A7wcULw94Q8Ca9km9aTNzeM8DgEmgKUe0TxrxePaaSWAkyeyDMvSb3EtNawgUqOUQNdSTGakdpbrru6M1I7xs0O7wNXb6pML7zO9pirWfEeYC0hXmQqJH7RPCWrwkmuGo2GLe9zN' | sudo tee /home/ansibleadmin/.ssh/authorized_keys"
+                "echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRhaZXIStiT67pHQ4/0RXnoB5PsiLa0JAsL22sFpk/VytXIHffJc3Ml7ICWs69k3QnLL7j7243BCb1VDLo1lgWp3EBS+dHGoWzie7tKCKw7V5XCHUu6setlHBf/aKc4YwqU8jF5B+QVo/GIpeYT2FdqaVaP6keJUdnUH8eouQSUvLK/LXt9eutgCj9s+YJVz6XXm+jnwteHPWWBEo0kmw+1L4ysI+5N+tSerbqVgpGUwSaUSS24CL+rkmfnl2W8eTGK5w1Gkd4ebmGCzscFWKnxt8Elf' | sudo tee /home/ansibleadmin/.ssh/authorized_keys"
             ]
         },
         {
